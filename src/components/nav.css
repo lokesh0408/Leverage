@@ -1,0 +1,61 @@
+/* Reset default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 90px;
+  background-color: #00008b;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between; /* Push content to both ends */
+  align-items: center; /* Vertically align content */
+  padding-left: 30px;
+  padding-right: 30px; /* Add padding to the right for spacing */
+}
+
+.profile-icon {
+  display: flex; /* Center the image vertically */
+  align-items: center; /* Vertically align the image */
+  margin-right: 20px;
+   /* Add margin for spacing */
+}
+
+img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 300px;
+}
+
+.contents {
+  font-size: 25px;
+  color: white;
+  margin-top: -10px;
+}
+
+/* Style links */
+.nav-link {
+  font-size: 20px;
+  text-decoration: none; /* Remove underline */
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+.navbar {
+  /* ... (existing styles) */
+  display: flex;
+  
+  justify-content: space-between; /* Add this to push the content to both ends */
+  align-items: center; /* Vertically align content */
+}

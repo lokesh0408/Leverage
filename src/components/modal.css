@@ -1,0 +1,15 @@
+/* modal.css */
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1001; /* Ensure the modal content is above the overlay */
+  /* Center-align modal content */
+  position: fixed; /* Change to fixed position */
+  top: 50%;
+  height: 50%;
+  width: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

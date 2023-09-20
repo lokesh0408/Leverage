@@ -1,0 +1,63 @@
+.all{
+    overflow: auto;
+}
+.box {
+    width: 1400px;
+    height: 500px;
+    background-color: plum;
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column; /* Display child elements in a column */
+    justify-content: center; /* Vertically center content */
+    align-items: center; 
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  
+  .box input {
+    width: 40%;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-around; /* Horizontally distribute items */
+    align-items: center; /* Vertically center items */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .forecast-item {
+    width: 150px; /* Adjust the width of each forecast item */
+    margin: 10px; /* Adjust the margin between forecast items */
+    text-align: center;
+  }
+  
+  .weather-icon {
+    width: 80px; /* Adjust the width of the weather icon */
+    height: 80px; /* Adjust the height of the weather icon */
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  .temperature {
+    font-size: 25px; /* Adjust the font size for temperature */
+    margin-bottom: 5px; /* Adjust as needed */
+  }
+  
+  .weather-description {
+    font-size: 20px; /* Adjust the font size for weather description */
+    margin: 0; /* Remove default margins */
+  }
+  

@@ -1,0 +1,12 @@
+.task-item input{
+    border-width: 0px;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    border-width: 2px;
+}
+textarea{
+    border-width: 0px;
+    align-items: center;
+}
